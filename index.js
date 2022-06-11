@@ -41,18 +41,18 @@ educationFirstUser.push(sdFirstUser)
 educationFirstUser.push(smpFirstUser)
 educationFirstUser.push(smaFirstUser)
 
-const restaurantSet = new Set()
-restaurantSet.add("Bento")
-restaurantSet.add("Sushi")
-restaurantSet.add("Pancake")
-restaurantSet.add("Eggy")
-restaurantSet.add("Tempura")
-restaurantSet.add("Bento")
-restaurantSet.add("Eggy")
-restaurantSet.add("Padang")
-restaurantSet.add("Tteok")
-restaurantSet.add("Sushi")
-restaurantSet.add("Sushi")
+// const restaurantSet = new Set()
+// restaurantSet.add("Bento")
+// restaurantSet.add("Sushi")
+// restaurantSet.add("Pancake")
+// restaurantSet.add("Eggy")
+// restaurantSet.add("Tempura")
+// restaurantSet.add("Bento")
+// restaurantSet.add("Eggy")
+// restaurantSet.add("Padang")
+// restaurantSet.add("Tteok")
+// restaurantSet.add("Sushi")
+// restaurantSet.add("Sushi")
 
 
 const firstUser = {
@@ -63,7 +63,7 @@ const firstUser = {
     favoriteColor: favoriteColorFirstUser,
     isHavePet: convertBoolean(true),
     education: JSON.stringify(educationFirstUser),
-    favoriterestaurant: restaurantSet,
+    favoriteRestaurant: ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok"],
 };
 
 const favoriteColorSecondUser = [];
@@ -100,16 +100,16 @@ educationSecondUser.push(smpSecondsUser)
 educationSecondUser.push(smaSecondsUser)
 educationSecondUser.push(univSecondUser)
 
-const restaurantSecondSet = new Set()
-restaurantSecondSet.add("Tempura")
-restaurantSecondSet.add("Bento")
-restaurantSecondSet.add("Sushi")
-restaurantSecondSet.add("Pancake")
-restaurantSecondSet.add("Padang")
-restaurantSecondSet.add("Katsu")
-restaurantSecondSet.add("Geprek")
-restaurantSecondSet.add("Pancake")
-restaurantSecondSet.add("Eggy")
+// const restaurantSecondSet = new Set()
+// restaurantSecondSet.add("Tempura")
+// restaurantSecondSet.add("Bento")
+// restaurantSecondSet.add("Sushi")
+// restaurantSecondSet.add("Pancake")
+// restaurantSecondSet.add("Padang")
+// restaurantSecondSet.add("Katsu")
+// restaurantSecondSet.add("Geprek")
+// restaurantSecondSet.add("Pancake")
+// restaurantSecondSet.add("Eggy")
 
 const secondUser = {
     name : "Wendy",
@@ -119,7 +119,7 @@ const secondUser = {
     favoriteColor: favoriteColorSecondUser,
     isHavePet: convertBoolean(false),
     education: JSON.stringify(educationSecondUser),
-    favoriterestaurant: restaurantSet,
+    favoriteRestaurant: ["Tempura", "Bento", "Sushi", "Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
